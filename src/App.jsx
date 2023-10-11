@@ -6,15 +6,19 @@ import  Landingpage from './componets/landingpage'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navibar from './componets/navbar'
+import RegisterForm from './componets/RegisterForm'
 
 function App() {
-  
+
+  // 
 
   return (
     <div>
       <Navibar/> 
-        
-     <Landingpage/>
+      <RegisterForm/>    
+     
+
+      {/* <Landingpage/> */}
      
     </div>
    
