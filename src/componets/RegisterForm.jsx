@@ -8,9 +8,9 @@ function RegisterForm() {
     <div className={styles.boddy}>
         
    <div className={styles.crddiv}>
-   <Card className={styles.hh} style={{ width: '23rem', height:"450px",  backgroundimage: 'linear-gradient(#f67a36,#ed008c)'}}>
+   <Card className={styles.hh} style={{ width: '23rem', height:"500px",  backgroundimage: 'linear-gradient(#f67a36,#ed008c)'}}>
      <h1></h1>
-      <Card.Body>
+      <Card.Body className='{styles.crdbdy}'>
         <Card.Title style={{marginTop:"35px"}} > <h1 style={{color:"whitesmoke"}} >Sign up</h1></Card.Title>
         <form action="" className={styles.frm}>
         <Card.Text className={styles.t1}>

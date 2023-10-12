@@ -3,13 +3,11 @@ import styles from "./Landingpage.module.css"
 
 function Landingpage() {
   return (
-   <div style={{
-    backgroundImage:"url(./imgs/hd_bg.jpg)",
-    height : "100vh",
-    width: "100vw",
-    backgroundSize: "cover"
-   }}> 
-     <h1 style={{color:"white",textAlign: "center"}}>NEW SESSION ARRIVALS</h1>
+   <div className={styles.landdiv}> 
+   <div className={styles.hdiv}>
+   <h1 className={styles.h1}>NEW SESSION ARRIVALS</h1>
+   </div>
+     
      
     </div>
   )

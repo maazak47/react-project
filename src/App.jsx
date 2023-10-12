@@ -7,6 +7,8 @@ import  Landingpage from './componets/landingpage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navibar from './componets/navbar'
 import RegisterForm from './componets/RegisterForm'
+import SignForm from './componets/SignForm'
+import Contactus from './componets/Contactus'
 
 function App() {
 
@@ -14,11 +16,15 @@ function App() {
 
   return (
     <div>
+      {/* 
+          <RegisterForm/>    
+          
+            <SignForm/>
+            <Contactus/>
+      */}
       <Navibar/> 
-      <RegisterForm/>    
+      <Landingpage/>
      
-
-      {/* <Landingpage/> */}
      
     </div>
    
