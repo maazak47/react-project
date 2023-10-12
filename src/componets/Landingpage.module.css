@@ -1,17 +1,27 @@
 
 .landdiv{
-    height: 95vw;
-    background-image: url(./imgs/hd_bg.jpg);
-     background-repeat: no-repeat;
-    background-position: center center;
+    height: 92.5vh;
+    background: url(./imgs/hd_bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+  }
     
    
-}
+
 .h1{
+    position: absolute;
     color: white;
     font-size: 60px;
-  
-    
- 
+    margin-top: 270px;
+    margin-left: 200px;
+}
+
+.h5{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-top: 350px;
+    margin-left: 200px;
 }

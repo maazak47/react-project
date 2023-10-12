@@ -25,8 +25,8 @@ function Navibar() {
           </Nav>
           <Form className="d-flex" style={{marginRight: "200px",}}>
           <Button variant="outline-success"
-           style={{marginRight:"5px", padding: "4px, 15px", color:"black", borderColor:"black"}}>Login</Button>
-          <Button variant="outline-success" style={{ color:"black", borderColor:"black"}}>  Register</Button>
+           style={{marginRight:"5px", padding: "4px, 15px", color:"black", borderColor:"black"}}> <img src="login.png" alt="" style={{height:"15px"}} /> Login</Button>
+          <Button variant="outline-success" style={{ color:"black", borderColor:"black"}}> <img src="Daco.png" alt="" style={{height:"15px"}}/> Register</Button>
             <Button variant="outline-success" style={{marginLeft: "5px",  color:"black", borderColor:"black"}}><img src="cart-icon-28354.jpg" alt=""  style={{height:"15px"}}/> cart (0)</Button>
           </Form>
         </Navbar.Collapse>

@@ -20,10 +20,11 @@ function App() {
           <RegisterForm/>    
           
             <SignForm/>
-            <Contactus/>
+            
+            <Landingpage/>
       */}
       <Navibar/> 
-      <Landingpage/>
+      <Contactus/>
      
      
     </div>
