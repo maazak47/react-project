@@ -1,8 +1,36 @@
 .boddy{
-    height: 92.5vh;
-    background: url(./imgs/Contact.jpg) no-repeat center center fixed;
+    
+    height: 92.7vh;
+    
+    background: rgba(0, 0, 0,0.8)url(./imgs/Contact.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+     background-blend-mode: darken;
+}
+.headerdiv{
+    position: fixed;
+     
+
+    margin-top: 50px;
+    margin-left: 300px;
+    text-align: center;
+
+}
+.msgfrmdiv{
+    height: 55vh;
+    width: 45vw;
+    position:  absolute;
+    background-color: aliceblue;
+    margin-top: 250px;
+    margin-left: 700px;
+
+
+    
+}
+input{
+    width: 80%;
+margin-left: 40px;
+border: none;
 }
