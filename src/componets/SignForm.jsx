@@ -11,11 +11,11 @@ function SignForm() {
               transform: "translate(-50%, -50%)",
               }}>
         <form action="">
-            <h1 style={{textAlign:"center", color:"white"}}>Log&del</h1>
-            <input type="text" placeholder='Userame'  style={{padding:"8px 20px", marginTop:"7px",color:'white',
+            <h1 style={{textAlign:"center",marginRight:"20px" ,color:"white"}}>Log&del</h1>
+            <input type="text" placeholder='Userame'  style={{padding:"8px 20px",width:"290px" ,marginTop:"7px",color:'white',
              backgroundColor:"#3F51B5",filter:"brightness(60%)",
           borderColor:"#3F51B5", borderRadius:"4px", }} /> <br />
-            <input type="password" placeholder='Password' style={{padding:"8px 20px", color:"white", marginTop:"10px",backgroundColor:"#3F51B5",filter:"brightness(60%)",
+            <input type="password" placeholder='Password' style={{padding:"8px 20px", width:"290px" ,color:"white", marginTop:"10px",backgroundColor:"#3F51B5",filter:"brightness(60%)",
           borderColor:"#3F51B5", borderRadius:"4px"}} /> <br />
             <button style={{backgroundColor:"#0abde3",
                     color:"white", padding:"8px 110px",marginTop:"10px",borderColor:"#0abde3", borderRadius:"4px"}}>Let me in</button>

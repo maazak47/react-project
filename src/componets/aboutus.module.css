@@ -1,0 +1,39 @@
+.abtdiv{
+    height: 92vh;
+    background: url(./imgs/pic.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    }
+   
+    .aboutus{
+        position: fixed;
+        margin-left: 190px;
+        margin-top: 70px;
+        background-color: white;
+        height: 75%;
+        
+        }
+        .h1{
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 180px;
+        margin-top: 120px;
+        }
+        .p{
+        margin-left: 180px;
+        margin-top: 60px;
+        }
+        .h2{
+        display: inline-block;
+        margin: 100px;
+        text-align: center;
+        line-height: 75px;
+        }
+        .h2div{
+        display: flex;
+        align-items: stretch;
+        }
+        

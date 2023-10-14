@@ -14,13 +14,13 @@ function RegisterForm() {
         <Card.Title style={{marginTop:"35px"}} > <h1 style={{color:"whitesmoke"}} >Sign up</h1></Card.Title>
         <form action="" className={styles.frm}>
         <Card.Text className={styles.t1}>
-        <input type="text" placeholder='User name' style={{padding:"6px 0px", borderRadius:"4px"}} /> 
+        <input type="text" placeholder='User name' style={{padding:"6px 0px", width:"250px", borderRadius:"4px"}} /> 
           </Card.Text>
           <Card.Text style={{}}>
-        <input type="email" placeholder='Email' style={{padding:"6px 0px", borderRadius:"4px"}} /> 
+        <input type="email" placeholder='Email' style={{padding:"6px 0px", width:"250px", borderRadius:"4px"}} /> 
           </Card.Text>
           <Card.Text>
-        <input type="password" placeholder='password' style={{padding:"6px 0px", borderRadius:"4px"}}/> 
+        <input type="password" placeholder='password' style={{padding:"6px 0px",  width:"250px",borderRadius:"4px"}}/> 
           </Card.Text>
          
           <Card.Text>

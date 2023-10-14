@@ -9,6 +9,7 @@ import Navibar from './componets/navbar'
 import RegisterForm from './componets/RegisterForm'
 import SignForm from './componets/SignForm'
 import Contactus from './componets/Contactus'
+import AboutUs from './componets/Aboutus'
 
 function App() {
 
@@ -17,15 +18,17 @@ function App() {
   return (
     <div>
       {/* 
-          <RegisterForm/>    
-          
-            <SignForm/>
+           
+             <Landingpage/>
+              <SignForm/>
+           <RegisterForm/> 
+              <Contactus/>
+            <AboutUs/>
             
-            <Landingpage/>
       */}
       <Navibar/> 
-      <Contactus/>
-     
+      
+      
      
     </div>
    
