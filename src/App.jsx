@@ -10,6 +10,8 @@ import RegisterForm from './componets/RegisterForm'
 import SignForm from './componets/SignForm'
 import Contactus from './componets/Contactus'
 import AboutUs from './componets/Aboutus'
+import { Route, Routes } from 'react-router-dom'
+import Product1 from './componets/products/product1'
 
 function App() {
 
@@ -18,16 +20,27 @@ function App() {
   return (
     <div>
       {/* 
-           
-             <Landingpage/>
-              <SignForm/>
-           <RegisterForm/> 
-              <Contactus/>
-            <AboutUs/>
+       <Landingpage/>
+        <SignForm/>
+        <RegisterForm/> 
+       <Contactus/>
+        <AboutUs/>
+        <Navibar/> 
+            */}
             
-      */}
-      <Navibar/> 
-      
+            <Navibar/> 
+           
+
+       <Routes>
+        <Route path='home' element={ <Landingpage/>}/>
+        <Route path='product' element={ <Product1/> }/>
+        <Route path='about' element={  <AboutUs/>}/>
+        <Route path='contact' element={  <Contactus/>}/>
+        <Route path='login' element={ <SignForm/>}/>
+        <Route path='register' element={  <RegisterForm/>}/>
+        <Route path='cart' element={ ""}/>
+        <Route path='*' element={<><h1>Error 404 not found</h1></>} />
+      </Routes> 
       
      
     </div>
